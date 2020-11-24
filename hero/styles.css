@@ -1,0 +1,22 @@
+html, body{
+	margin: 0px;
+	font-family: roboto, arial, helvetica;
+}
+.hero-image{
+	height: 75vh;
+	background: url("descarga.png"), gray;
+	background-size: cover;
+	background-position: center;
+	padding: 2em;
+	text-shadow: 0 0 4px white;
+	display: flex;
+	align-items: flex-end;	
+}
+.hero-image h1{
+	font-size: 3em;
+	margin-left: 10%;
+}
+.hero-image p{
+	font-size: 20px;
+	margin-left: 10%;
+}

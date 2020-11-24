@@ -1,0 +1,79 @@
+html, body{
+	margin: 0px;
+	font-family: roboto, arial, helvetica;
+}
+.hero-image{
+	height: 75vh;
+	background: url("descarga.png"), #76db91;
+	background-size: cover;
+	background-position: center;
+	padding: 2em;
+	text-shadow: 0 0 4px white;
+	display: flex;
+	align-items: flex-end;	
+}
+.hero-image h1{
+	font-size: 3em;
+	margin-left: 10%;
+}
+.hero-image p{
+	font-size: 20px;
+	margin-left: 10%;
+}
+.nav{
+	background-color: #075c1e;
+	color: white;
+	width: 100%;
+	padding: 8px;
+}
+.nav li{
+	display: inline-block;
+	padding: 10px;
+	margin-right: 1em;
+}
+.main-container{
+	white-space: nowrap;
+	position: relative;
+	left: -300px;
+}
+
+.main-container *{
+	white-space: normal;
+}
+.main-container .content, .main-container .lateral{
+	display: inline-block;
+	margin-right: -4px;
+	vertical-align: top;
+	height: 100vh;
+}
+.main-container .content{
+	overflow-y: scroll;
+}
+.main-container .content{
+	width: 100%;
+}
+.main-container .lateral{
+	width: 300px;
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+	text-align: center;
+}
+
+.main-container .lateral li{
+	font-size: 20px;
+	padding: 8px 15px;
+	list-style-type: none;
+	border-bottom: solid 2px #eee;
+}
+.nav .button{
+	display: inline-block;
+	vertical-align: middle;
+}
+.main-container.open{
+	left: 0px;
+}
+.overflow-control{
+	overflow-x: hidden;
+}
